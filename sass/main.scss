@@ -1,4 +1,6 @@
-@import "./Layout/footer.scss";
+@import "./Base/reset.scss", "./Base/typography.scss";
+@import "./Layout/footer.scss", "./Layout/resto.scss";
+@import "./Utils/mixins.scss";
 
 .maps {
     background: #eaeaea;
@@ -9,29 +11,7 @@
 }
 
 
-body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    font-size: 1rem;
-}
 
-* {
-    box-sizing: border-box;
-}
-
-a {
-    text-decoration: none;
-    color: #000;
-}
-
-li {
-    list-style-type: none;
-}
-
-h2 {
-    margin: 0;
-}
 
 .header__img img {
     object-fit: cover;
