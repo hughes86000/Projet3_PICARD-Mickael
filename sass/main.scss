@@ -1,3 +1,5 @@
+@import "./Layout/footer.scss";
+
 .maps {
     background: #eaeaea;
     display: flex;
@@ -63,4 +65,29 @@ h2 {
     text-overflow: ellipsis;
     overflow: hidden;
     
+}
+
+.last__line span {
+    margin-right: 5px;
+}
+
+.meal h4 {
+    margin: 0;
+}
+
+.starter h3, dish h3, .dessert h3{
+    padding-left: 10px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.btn__order button {
+    margin: 30px 0;
+    padding: 20px;
+    width: 50%;
+}
+
+.btn__order {
+    display: flex;
+    justify-content: center;
 }
