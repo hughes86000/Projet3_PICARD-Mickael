@@ -1,10 +1,22 @@
 @import "./Base/reset";
 @import "./Base/typography";
+@import "./Utils/variables";
 @import "./Utils/mixins";
+@import "./Utils/keyframes";
+@import "./Utils/maps";
+@import "./Layout/header";
 @import "./Layout/footer";
+@import "./Layout/about";
+@import "./Layout/howto";
 @import "./Layout/resto";
+@import "./Layout/loader";
+@import "./Layout/menu";
+@import "./Components/maps";
 @import "./Components/btn-about";
+@import "./Components/howto-btn";
 @import "./Components/btn-card";
+@import "./Components/heart-icon";
+@import "./Components/menu-header";
 
 
 
