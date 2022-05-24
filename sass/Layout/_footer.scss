@@ -2,6 +2,11 @@ footer {
     background-color: #353535;
     padding: 25px;
     color: white;
+    display: block;
+    margin: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
 }
 
  h3 {
@@ -29,3 +34,6 @@ footer {
   .fa-hands-helping {
      margin-right: 5px;
   }
+  .fa-handshake {
+   transform: rotate(-45deg);
+ }
