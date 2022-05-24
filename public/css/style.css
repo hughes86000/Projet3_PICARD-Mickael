@@ -199,11 +199,11 @@ ul li a {
   }
 }
 
-.restaurant__tile h3 {
+.restaurant__title h3 {
   padding: 30px 0px 0px 10px;
 }
 @media screen and (min-width: 768px) {
-  .restaurant__tile h3 {
+  .restaurant__title h3 {
     text-align: center;
   }
 }
